@@ -4,34 +4,54 @@
 		<meta charset="UTF-8">
 		<title>Document</title>
 		<link rel="stylesheet" href="style.css">
+		<script type="text/javascript" src="client/bower_components/jquery/dist/jquery.min.js"></script> 
+	
 		<script type="text/javascript" src="script.js"></script> 
 	</head>
 	<body>
-		<div class="flash">
-			Closing Issues Across Repositories
-		</div>
-		<span>hide this broadcast</span>
-		<a href="">View <strong>61</strong> new broadcast</a>
-		<div class="content">
-			<div ="title">
-				<h2>Your Repositories <span class="gray">(2)</span></h2>
-				<button class="gray-button">New repositiry</button>
+		<div class="main">
+			<br><br>
+			<div class="flash">
+				<a href="#">Closing Issues Across Repositories</a>
 			</div>
-			<div class="menu">
-				<input type="text" placeholder="Find a Repository ...">
-				<strong>All repositories</strong>
-				<ul>
-					<li>Public</li>
-					<li>Private</li>
-					<li>Spurces</li>
-					<li>Forks</li>
-				</ul>
-				<ul class="repos">
-					<li>
-						<a href="">usuario/<strong>Repo</strong></a> 
-					</li>
-				</ul>
+			<div class="option-flash">
+				<span>x hide this broadcast</span>
+				<a href="">View <strong>61</strong> new broadcast</a>
+				
 			</div>
+			<br>
+			<div class="content">
+				<div class="title">
+					<span>Your Repositories </span><span class="gray">(2)</span>		
+					<a href="#"  class="gray-button">New repository</a>
+					<div class="clearfix"></div>
+				</div>
+				
+				<div class="menu">
+					<input type="text" placeholder="Find a Repository ...">
+					<div>
+						<strong>All repositories</strong>
+						<ul>
+							<li><a href="">Public</a></li>
+							<li><a href="">Private</a></li>
+							<li><a href="">Spurces</a></li>
+							<li><a href="">Forks</a></li>
+						</ul>	
+					</div>
+					
+					<ul class="repos">
+						<li>
+							<a href="">usuario/<strong>Repo</strong></a> 
+						</li>
+						<li>
+							<a href="">usuario/<strong>Repo</strong></a> 
+						</li>
+						
+					</ul>
+					<div class="clearfix"></div>
+				</div>
+			</div>	
 		</div>
+		
 	</body>
 </html>
